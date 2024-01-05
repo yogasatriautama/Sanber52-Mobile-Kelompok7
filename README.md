@@ -2,7 +2,7 @@
 ## 🚀 Deskripsi
 Ini adalah project latihan Mobile Automation. Project ini sekaligus untuk melengkapi Quiz dari [Sanbercode](https://sanbercode.com/) Bootcamp QA Batch 52
 
-**Task Test Case**
+## 🚀 Task Test Case
 1.  Create Automation Test Case Login: 
     - Login Valid Credential [Yoga](yogasatriautama@gmail.com)
     - Login Invalid Credential [Yoga](yogasatriautama@gmail.com)
@@ -15,4 +15,3 @@ Ini adalah project latihan Mobile Automation. Project ini sekaligus untuk meleng
 3.  Book One Way Flight:
     - Toronto - Paris - Economy - Flight only - with Day [Yoga](yogasatriautama@gmail.com)
 4.  Book Round Trip Flight:
-    -
