@@ -14,5 +14,5 @@ Ini adalah project latihan Mobile Automation. Project ini sekaligus untuk meleng
     - Search Flight without Login [Yoga](yogasatriautama@gmail.com)
 3.  Book One Way Flight:
     - Toronto - Paris - Economy - Flight only - with Day [Yoga](yogasatriautama@gmail.com)
-4. Book Round Trip Flight:
+4.  Book Round Trip Flight:
     -
