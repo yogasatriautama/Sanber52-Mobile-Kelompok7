@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.1.1 (Python 3.12.0 on win32)" generated="20240105 14:41:08.735" rpa="false" schemaversion="4">
+<robot generator="Robot 6.1.1 (Python 3.12.0 on win32)" generated="20240105 21:33:05.627" rpa="false" schemaversion="4">
 <suite id="s1" name="Robot Interactive Console" source="c:\Users\Penjaga\.vscode\extensions\robocorp.robotframework-lsp-1.11.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
 <test id="s1-t1" name="Default Task/Test" line="5">
 <kw name="Interpreter Main Loop" library="MainLoop">
-<status status="PASS" starttime="20240105 14:41:08.748" endtime="20240105 14:41:26.717"/>
+<kw name="Verify User Is Wrong Credential">
+<msg timestamp="20240105 21:33:06.156" level="FAIL">No keyword with name 'Verify User Is Wrong Credential' found.</msg>
+<status status="FAIL" starttime="20240105 21:33:06.156" endtime="20240105 21:33:06.156"/>
 </kw>
-<status status="PASS" starttime="20240105 14:41:08.748" endtime="20240105 14:41:26.717"/>
+<status status="PASS" starttime="20240105 21:33:05.638" endtime="20240105 21:33:26.973"/>
+</kw>
+<status status="PASS" starttime="20240105 21:33:05.636" endtime="20240105 21:33:26.973"/>
 </test>
-<status status="PASS" starttime="20240105 14:41:08.736" endtime="20240105 14:41:26.718"/>
+<status status="PASS" starttime="20240105 21:33:05.628" endtime="20240105 21:33:26.974"/>
 </suite>
 <statistics>
 <total>
