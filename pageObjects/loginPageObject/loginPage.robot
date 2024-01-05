@@ -13,5 +13,6 @@ Input Password On Login Page
     Wait Until Element Is Visible    ${password_input_login_page}
     [Arguments]   ${password}
     Input Text    ${password_input_login_page}     ${password}
+    
 Click Sign In Button on Login Page
     Click Element     ${signIn_button_loginPage}
