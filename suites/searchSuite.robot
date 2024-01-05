@@ -21,7 +21,7 @@ Search Booking Number
     Click Sign In Button on Login Page
     Wait Until Page Contains Element        xpath=//*[contains(@text, "Sign Out")]
     Click Search Toolbar in Main menu
-    Input Flight Number in Serach Page      ${FLIGHT_NUMBER} 
+    Input Flight Number in Search Page      ${FLIGHT_NUMBER} 
     Click Search Button in Search Page
     
 Invalid Search Booking Number
@@ -31,7 +31,7 @@ Invalid Search Booking Number
     Click Sign In Button on Login Page
     Wait Until Page Contains Element        xpath=//*[contains(@text, "Sign Out")]
     Click Search Toolbar in Main menu
-    Input Flight Number in Serach Page      ${INVALID_FLIGHT_NUMBER} 
+    Input Flight Number in Search Page      ${INVALID_FLIGHT_NUMBER} 
     Click Search Button in Search Page
 
 Search Flight without Login

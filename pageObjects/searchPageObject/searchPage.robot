@@ -17,7 +17,7 @@ Input Password On Login Page
 Click Search Toolbar in Main menu
     Click Element     ${search-menu}
 
-Input Flight Number in Serach Page
+Input Flight Number in Search Page
     [Arguments]    ${flight-number}
     Wait Until Element Is Visible    ${flight-number-input} 
     Input Text    ${flight-number-input}     ${flight-number}
