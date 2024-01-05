@@ -1,6 +1,18 @@
 # Sanber52-Mobile-Kelompok7
+## 🚀 Deskripsi
+Ini adalah project latihan Mobile Automation. Project ini sekaligus untuk melengkapi Quiz dari [Sanbercode](https://sanbercode.com/) Bootcamp QA Batch 52
 
-**Task**
-1.  Create Automation Test Case Login (postive and Negative case): [Yoga]
-2.  Book Flight (One Way Flight - positive case):
-3.  Search (by default booking id): [Yoga]
+**Task Test Case**
+1.  Create Automation Test Case Login: 
+    - Login Valid Credential [Yoga](yogasatriautama@gmail.com)
+    - Login Invalid Credential [Yoga](yogasatriautama@gmail.com)
+    - Login with Invalid Username [Yoga](yogasatriautama@gmail.com)
+    - Login with Invalid Password [Yoga](yogasatriautama@gmail.com)
+2.  Search Book Flight:
+    - Search Booking Number [Yoga](yogasatriautama@gmail.com)
+    - Invalid Search Booking Number [Yoga](yogasatriautama@gmail.com)
+    - Search Flight without Login [Yoga](yogasatriautama@gmail.com)
+3.  Book One Way Flight:
+    - Toronto - Paris - Economy - Flight only - with Day [Yoga](yogasatriautama@gmail.com)
+4. Book Round Trip Flight:
+    -
