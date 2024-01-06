@@ -16,5 +16,9 @@ Ini adalah project latihan Mobile Automation. Project ini sekaligus untuk meleng
     - Toronto - Paris - First - Flight only - with Day [Yoga](yogasatriautama@gmail.com)
     - New York - London - Bussiness - Flight and Hotel - with Day [Yoga](yogasatriautama@gmail.com)
     - Chicago - Ottawa - First - Flight only - without Day [Yoga](yogasatriautama@gmail.com)
-    - Chicago - Ottawa - Economy - Flight and Hotel - without Day [Yoga](yogasatriautama@gmail.com)
+    - Chicago - Ottawa - Bussiness - Flight and Hotel - without Day [Yoga](yogasatriautama@gmail.com)
 4.  Book Round Trip Flight:
+    - Chicago - Paris - First - Flight only - with Day [Yoga](yogasatriautama@gmail.com)
+    - New York - Paris - First - Flight and Hotel - with Day [Yoga](yogasatriautama@gmail.com)
+    - Toronto - Ottawa - First - Flight only - without Day [Yoga](yogasatriautama@gmail.com)
+    - Toronto - Paris - Bussiness - Flight and Hotel - without Day [Yoga](yogasatriautama@gmail.com)
