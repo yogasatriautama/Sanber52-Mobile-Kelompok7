@@ -26,5 +26,7 @@ economy: '//android.widget.TextView[@resource-id="android:id/text1" and @text="E
 first: '//android.widget.TextView[@resource-id="android:id/text1" and @text="First"]'
 bussines: '//android.widget.TextView[@resource-id="android:id/text1" and @text="Business"]'
 #date
-01-aug: '//android.view.View[@content-desc="15 August 2019"]'
+01-aug: '//android.view.View[@content-desc="01 August 2019"]'
 31-aug: '//android.view.View[@content-desc="31 August 2019"]'
+date-picker: '//android.widget.DatePicker[@resource-id="android:id/datePicker"]'
+invalid_endDate_message: 'End Date Cannot be Before Start Date'

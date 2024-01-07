@@ -88,3 +88,23 @@ Choose and Confirm Price
     Wait Until Element Is Visible    ${choose-price-button}
     Click Element    ${choose-price-button}
     Click Element    ${confirm-button}
+
+Verify Book Page Appears
+    Wait Until Element Is Visible    ${one-way-button}
+    Wait Until Element Is Visible    ${submit-book-button}
+
+Choose Start Date and Choose End Date before Start Date
+    Wait Until Element Is Visible    ${start-date}
+    Click Element                    ${start-date}
+    Wait Until Element Is Visible    ${date-picker}
+    Click Element                    ${31-aug}
+    Click Element                    ${date-ok-button}
+    Wait Until Element Is Visible    ${end-date}
+    Click Element                    ${end-date}
+    Wait Until Element Is Visible    ${date-picker}
+    Click Element                    ${01-aug}
+    Click Element                    ${date-ok-button}
+
+Verify Invalid End Date Message Appears
+    Wait Until Page Contains    ${invalid_endDate_message}
+

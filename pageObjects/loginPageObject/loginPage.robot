@@ -24,3 +24,12 @@ Input Password On Login Page
     
 Click Sign In Button on Login Page
     Click Element     ${signIn_button_loginPage}
+
+Login With Valid Credentials
+    [Arguments]    ${username}    ${password}
+    Verify Home Page Appears
+    Click Sign In Button On Home Page
+    Verify Login Appears
+    Input Username On Login Page        ${username}
+    Input Password On Login Page        ${password}
+    Click Sign In Button On Login Page

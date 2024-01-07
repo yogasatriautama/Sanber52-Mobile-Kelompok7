@@ -35,7 +35,7 @@ Login with Invalid Password
     Input Password On Login Page    ${INVALID_PASSWORD}
     Click Sign In Button on Login Page
 
-User should not be able to login with blank input and invalid message must have shown
+User should not be able to login with blank input and invalid message must shown
     Verify Home Page Appears
     Click Sign In Button On Home Page
     Verify Login Appears
