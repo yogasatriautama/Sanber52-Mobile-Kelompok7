@@ -24,3 +24,11 @@ Input Flight Number in Search Page
 
 Click Search Button in Search Page
     Click Element    ${search-button}
+
+Verify Blank Message Appears
+    Wait Until Page Contains    ${invalid-message-searchPage}
+
+Verify Search Page Appears
+    Wait Until Element Is Visible    ${search-title}
+    Wait Until Element Is Visible    ${flight-number-input}
+    Wait Until Element Is Visible    ${search-button}

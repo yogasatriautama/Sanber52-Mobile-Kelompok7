@@ -36,3 +36,11 @@ Invalid Search Booking Number
 
 Search Flight without Login
     Page Should Not Contain Element    ${flight-number-input}
+
+User should not be able to search with blank input and warning message must shown
+    Login With Valid Credentials        ${VALID_USERNAME}    ${VALID_PASSWORD}
+    Verify User Is Logged In
+    Click Search Button On Home Page
+    Verify Search Page Appears
+    Click Search Button in Search Page
+    Verify Blank Message Appears
