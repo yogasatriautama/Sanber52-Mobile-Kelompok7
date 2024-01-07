@@ -89,3 +89,14 @@ Book: One way - Chicago - Ottawa - Bussiness - Flight and Hotel - without Day
     Submit Book
     Choose and confirm price
     Wait Until Page Contains Element    xpath=//*[contains(@text, "Your flight is booked")]
+
+#Expected to Fail
+End Date Cannot be Before Start Date And Invalid End Date Message must shown
+    Login With Valid Credentials        ${VALID_USERNAME}    ${VALID_PASSWORD}
+    Verify User Is Logged In
+    Click Book Button On Home Page
+    Verify Book Page Appears
+    Choose Start Date and Choose End Date before Start Date
+    Submit Book
+    Verify Invalid End Date Message Appears
+
