@@ -1,9 +1,17 @@
 *** Settings ***
+Resource                ../homePageObject/homePage.robot
 Resource                ../base/base.robot
 Variables               loginpage_locators.yaml
 
 
 *** Keywords ***
+Verify Login Appears
+    Wait Until Element Is Visible    ${email_input_loginPage}
+    Wait Until Element Is Visible    ${password_input_loginPage}
+    Wait Until Element Is Visible    ${signIn_button_loginPage}
+
+Verify Invalid Message Appears
+    Wait Until Page Contains    ${invalid_message_loginPage}
 Input Username On Login Page
     [Arguments]    ${username}
     Wait Until Element Is Visible    ${email_input_loginPage} 
