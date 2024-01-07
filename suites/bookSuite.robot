@@ -32,6 +32,46 @@ Book: One way - Toronto - Paris - First - Flight only - with Day
     Choose and confirm price
     Wait Until Page Contains Element    xpath=//*[contains(@text, "Your flight is booked")]
 
+Book: One way - Toronto - London - Bussiness - Flight and Hotel - with Day
+    Click Sign In Button On Home Page
+    Input Username On Login Page    ${VALID_USERNAME}
+    Input Password On Login Page    ${VALID_PASSWORD}
+    Click Sign In Button on Login Page
+    Wait Until Page Contains Element    xpath=//*[contains(@text, "Sign Out")]
+    Open Book
+    Wait Until Element Is Visible    ${one-way-button}
+    Choose One-way Flight
+    Choose From City Toronto
+    Choose To City London
+    Choose Class Bussiness
+    Choose Start Date
+    Choose End Date
+    Choose Flight and Hotel
+    Choose Checkbox Day
+    Submit Book
+    Choose and confirm price
+    Wait Until Page Contains Element    xpath=//*[contains(@text, "Your flight is booked")]
+
+Book: One way - Toronto - Ottawa - First - Flight only - with Day
+    Click Sign In Button On Home Page
+    Input Username On Login Page    ${VALID_USERNAME}
+    Input Password On Login Page    ${VALID_PASSWORD}
+    Click Sign In Button on Login Page
+    Wait Until Page Contains Element    xpath=//*[contains(@text, "Sign Out")]
+    Open Book
+    Wait Until Element Is Visible    ${one-way-button}
+    Choose One-way Flight
+    Choose From City Toronto
+    Choose To City Ottawa
+    Choose Class First
+    Choose Start Date
+    Choose End Date
+    Choose Flight only
+    Choose Checkbox Day
+    Submit Book
+    Choose and confirm price
+    Wait Until Page Contains Element    xpath=//*[contains(@text, "Your flight is booked")]
+
 Book: One way - New York - London - Bussiness - Flight and Hotel - with Day
     Click Sign In Button On Home Page
     Input Username On Login Page    ${VALID_USERNAME}
@@ -44,6 +84,46 @@ Book: One way - New York - London - Bussiness - Flight and Hotel - with Day
     Choose From City New York
     Choose To City London
     Choose Class Bussiness
+    Choose Start Date
+    Choose End Date
+    Choose Flight and Hotel
+    Choose Checkbox Day
+    Submit Book
+    Choose and confirm price
+    Wait Until Page Contains Element    xpath=//*[contains(@text, "Your flight is booked")]
+
+Book: One way - New York - Paris - Economy - Flight only - with Day
+    Click Sign In Button On Home Page
+    Input Username On Login Page    ${VALID_USERNAME}
+    Input Password On Login Page    ${VALID_PASSWORD}
+    Click Sign In Button on Login Page
+    Wait Until Page Contains Element    xpath=//*[contains(@text, "Sign Out")]
+    Open Book
+    Wait Until Element Is Visible    ${one-way-button}
+    Choose One-way Flight
+    Choose From City New York
+    Choose To City Paris
+    Choose Class Economy
+    Choose Start Date
+    Choose End Date
+    Choose Flight only
+    Choose Checkbox Day
+    Submit Book
+    Choose and confirm price
+    Wait Until Page Contains Element    xpath=//*[contains(@text, "Your flight is booked")]
+
+Book: One way - New York - Ottawa - First - Flight and Hotel - with Day
+    Click Sign In Button On Home Page
+    Input Username On Login Page    ${VALID_USERNAME}
+    Input Password On Login Page    ${VALID_PASSWORD}
+    Click Sign In Button on Login Page
+    Wait Until Page Contains Element    xpath=//*[contains(@text, "Sign Out")]
+    Open Book
+    Wait Until Element Is Visible    ${one-way-button}
+    Choose One-way Flight
+    Choose From City New York
+    Choose To City Ottawa
+    Choose Class First
     Choose Start Date
     Choose End Date
     Choose Flight and Hotel
